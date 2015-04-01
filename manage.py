@@ -39,7 +39,7 @@ from flaskbb.utils.populate import (create_test_data, create_welcome_forum,
 
 # Use the development configuration if available
 try:
-    from flaskbb.configs.development import DevelopmentConfig as Config
+    from flaskbb.configs.dev import DevelopmentConfig as Config
 except ImportError:
     from flaskbb.configs.default import DefaultConfig as Config
 
